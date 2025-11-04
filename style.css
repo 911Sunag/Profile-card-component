@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+:root{
+    --Blue600: hsl(185, 75%, 39%);
+    --Navy950: hsl(229, 23%, 23%);
+    --Gray500: hsl(227, 10%, 46%);
+    --Gray100: hsl(225, 10%, 92%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Blue600);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.balls{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.card{
+    background-color: var(--Gray100);
+    border-radius: 10px;
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.vic-img{
+    position: absolute;
+    left: 38%;
+    top: 28%;
+    border: 5px solid  var(--Gray100);
+    border-radius: 50%;
+}
+.vic-img img{
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    
+}
+.bg-img img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 33%;
+    gap: 0.6rem;
+}
+.username{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Kumbh Sans",sans-serif;
+    color: var(--Navy950);
+}
+.username h1{
+    font-weight: 300;
+    color: var(--Gray500);
+}
+.name small{
+    font-family: "Kumbh Sans",sans-serif;
+    color: var(--Gray500);
+}
+hr{
+    margin-top: 20px;
+    border: 1px solid  rgba(179, 177, 177, 0.5);
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 18%;
+    gap: 5rem;
+}
+.stats h4{
+    font-family: "Kumbh Sans",sans-serif;
+    color: var(--Navy950);
+}
+.stats small{
+    font-family: "Kumbh Sans",sans-serif;
+    color: var(--Gray500);
+}
+.pho h4{
+    text-align: center;
+}
+.follo h4{
+    text-align: center;
+}
